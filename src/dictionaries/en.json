@@ -1,0 +1,22 @@
+{
+  "navigation": {
+    "technology": "Technology",
+    "clinicalData": "Clinical Data"
+  },
+  "hero": {
+    "title": "Predictive Care for",
+    "highlight": "Glaucoma Monitoring",
+    "subtitle": "Combining cutting-edge biometric sensors with AI-driven analytics to protect your vision, continuously and reliably."
+  },
+  "legal": {
+    "impressum": "Imprint",
+    "privacy": "Privacy Policy"
+  },
+  "cookieBaner": {
+    "title": "Data Privacy & Cookies",
+    "description": "We use essential cookies to ensure our platform functions securely. With your consent, we also use analytical cookies to improve our clinical data presentation.",
+    "acceptAll": "Accept All",
+    "rejectAll": "Reject Non-Essential",
+    "manage": "Manage Preferences"
+  }
+}

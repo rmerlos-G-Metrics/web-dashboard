@@ -1,0 +1,22 @@
+{
+  "navigation": {
+    "technology": "Technologie",
+    "clinicalData": "Klinische Daten"
+  },
+  "hero": {
+    "title": "Prädiktive Versorgung für",
+    "highlight": "Glaukom-Monitoring",
+    "subtitle": "Kombination modernster biometrischer Sensoren mit KI-gestützter Analytik zum kontinuierlichen und zuverlässigen Schutz Ihres Augenlichts."
+  },
+  "legal": {
+    "impressum": "Impressum",
+    "privacy": "Datenschutzerklärung"
+  },
+  "cookieBanner": {
+    "title": "Datenschutz & Cookies",
+    "description": "Wir verwenden essenzielle Cookies, um die sichere Funktion unserer Plattform zu gewährleisten. Mit Ihrer Zustimmung nutzen wir auch Analyse-Cookies, um unsere klinische Datenpräsentation zu verbessern.",
+    "acceptAll": "Alle akzeptieren",
+    "rejectAll": "Nicht-essenzielle ablehnen",
+    "manage": "Einstellungen verwalten"
+  }
+}
