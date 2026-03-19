@@ -1,12 +1,9 @@
 {
-  "navigation": {
-    "technology": "Technologie",
-    "clinicalData": "Klinische Daten"
-  },
   "hero": {
-    "title": "Prädiktive Versorgung für",
-    "highlight": "Glaukom-Monitoring",
-    "subtitle": "Kombination modernster biometrischer Sensoren mit KI-gestützter Analytik zum kontinuierlichen und zuverlässigen Schutz Ihres Augenlichts."
+    "title": "Okulare Intelligenz.",
+    "highlight": "Absolute Präzision.",
+    "subtitle": "Die Verbindung modernster biometrischer Sensorik mit High-Fidelity-KI für das präziseste und deterministischste Glaukom-Monitoring unserer Zeit.",
+    "madeBy": "Entwickelt von"
   },
   "legal": {
     "impressum": "Impressum",
@@ -113,5 +110,14 @@
     "fontAwesomeText": "This website uses Font Awesome to ensure the uniform use of fonts on this site. Font Awesome is locally installed so that a connection to Fonticons, Inc.’s servers will not be established in conjunction with this application.\n\nFor more information on Font Awesome, please and consult the Data Privacy Declaration for Font Awesome under: https://fontawesome.com/privacy.",
     "googleMapsTitle": "Google Maps",
     "googleMapsText": "This website uses the mapping service Google Maps. The provider is Google Ireland Limited (“Google”), Gordon House, Barrow Street, Dublin 4, Ireland. With the means of this service, we can integrate map material on our website.\n\nTo enable the use of the Google Maps features, your IP address must be stored. As a rule, this information is transferred to one of Google's servers in the United States, where it is archived. The operator of this website has no control over the data transfer. In case Google Maps has been activated, Google has the option to use Google Fonts for the purpose of the uniform depiction of fonts. When you access Google Maps, your browser will load the required web fonts into your browser cache, to correctly display text and fonts.\n\nWe use Google Maps to present our online content in an appealing manner and to make the locations disclosed on our website easy to find. This constitutes a legitimate interest as defined in Art. 6(1)(f) GDPR. If appropriate consent has been obtained, the processing is carried out exclusively on the basis of Art. 6(1)(a) GDPR and § 25 (1) TDDDG, insofar the consent includes the storage of cookies or the access to information in the user's end device (e.g., device fingerprinting) within the meaning of the TDDDG. This consent can be revoked at any time.\n\nData transmission to the US is based on the Standard Contractual Clauses (SCC) of the European Commission. Details can be found here: https://privacy.google.com/businesses/gdprcontrollerterms/ and https://privacy.google.com/businesses/gdprcontrollerterms/sccs/.\n\nFor more information on the handling of user data, please review Google’s Data Privacy Declaration under: https://policies.google.com/privacy?hl=en.\n\nThe company is certified in accordance with the “EU-US Data Privacy Framework” (DPF). The DPF is an agreement between the European"
+  },
+  "navbar": {
+    "logoAlt": "G-Metrics Logo",
+    "home": "Startseite",
+    "impressum": "Impressum",
+    "datenschutz": "Datenschutz",
+    "toggleLanguage": "Zu Englisch wechseln",
+    "openMenu": "Hauptmenü öffnen",
+    "closeMenu": "Hauptmenü schließen"
   }
 }

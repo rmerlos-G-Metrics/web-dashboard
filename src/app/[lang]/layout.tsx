@@ -4,6 +4,7 @@ import "../globals.css";
 import { getDictionary, Locale } from "@/dictionaries/getDictionary";
 import CookieBanner from "@/components/ui/CookieBanner";
 import Footer from "@/components/ui/Footer";
+import Navbar from "@/components/ui/Navbar";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -33,6 +34,7 @@ export default async function RootLayout({
         className="flex flex-col min-h-screen antialiased bg-background text-foreground"
       >
         <header className="fixed top-0 w-full z-50">
+          <Navbar dictionary={dict.navbar} lang={lang}></Navbar>
         </header>
 
         <main className="grow pt-24">

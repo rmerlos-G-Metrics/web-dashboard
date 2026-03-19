@@ -45,7 +45,7 @@ export default function Hero({dictionary}: HeroProps) {
         >
           <div className='flex flex-col items-center text-center gap-5'>
             <p className="text-sm font-medium text-health-800 dark:text-health-200">
-              Made by
+              {dictionary.madeBy}
             </p>
             <Image
               src="/images/G-Metrics-logo.png"
