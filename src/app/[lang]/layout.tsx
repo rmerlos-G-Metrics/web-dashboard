@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
-import { Inter, Geist, Geist_Mono } from "next/font/google";
+import { Inter } from "next/font/google";
 import "../globals.css";
+import { getDictionary, Locale } from "@/dictionaries/getDictionary";
+import CookieBanner from "@/components/ui/CookieBanner";
+import Footer from "@/components/ui/Footer";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -22,6 +25,8 @@ export default async function RootLayout({
 }>) {
   const {lang} = await params;
 
+  const dict = await getDictionary(lang as Locale);
+
   return (
     <html lang={lang} className={`${inter.variable}`}>
       <body
@@ -34,8 +39,8 @@ export default async function RootLayout({
           {children}
         </main>
 
-        <footer></footer>
-
+        <Footer dictionary={dict.footer} lang={lang}></Footer>
+        <CookieBanner dictionary={dict.cookieBanner}></CookieBanner>
       </body>
     </html>
   );

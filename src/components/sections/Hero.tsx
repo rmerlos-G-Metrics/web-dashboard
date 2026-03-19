@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 interface HeroProps {
   dictionary: {
@@ -16,8 +17,8 @@ export default function Hero({dictionary}: HeroProps) {
       className="relative flex flex-col items-center justify-center min-h-[80vh] px-6 text-center"
       aria-label="Introduction to G-Metrics"
     >
-      {/* Background ambient glow for the "Futuristic Clinical" feel */}
-      <div className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_center,_var(--color-health-100)_0%,_transparent_70%)] dark:bg-[radial-gradient(ellipse_at_center,_var(--color-health-900)_0%,_transparent_70%)]" />
+
+      <div className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_center,var(--color-health-100)_0%,transparent_70%)] dark:bg-[radial-gradient(ellipse_at_center,var(--color-health-900)_0%,transparent_70%)]" />
 
       <motion.div
         initial={{ opacity: 0, y: 20 }}
@@ -27,7 +28,7 @@ export default function Hero({dictionary}: HeroProps) {
       >
         <h1 className="text-5xl font-extrabold tracking-tight md:text-7xl text-foreground">
           {dictionary.title} <br className="hidden md:block" />
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-health-500 to-health-700">
+          <span className="text-transparent bg-clip-text bg-linear-to-r from-health-500 to-health-700">
             {dictionary.highlight}
           </span>
         </h1>
@@ -36,16 +37,23 @@ export default function Hero({dictionary}: HeroProps) {
           {dictionary.subtitle}
         </p>
 
-        {/* Using our custom utility class from globals.css */}
         <motion.div 
           className="mt-12 p-8 glass-panel max-w-lg mx-auto"
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.3, duration: 0.6 }}
         >
-          <p className="text-sm font-medium text-health-800 dark:text-health-200">
-            [ 3D Biosensor Model Placeholder ]
-          </p>
+          <div className='flex flex-col items-center text-center gap-5'>
+            <p className="text-sm font-medium text-health-800 dark:text-health-200">
+              Made by
+            </p>
+            <Image
+              src="/images/G-Metrics-logo.png"
+              alt="G-Metrics-Logo"
+              width={150}
+              height={150}
+            />
+          </div>
         </motion.div>
       </motion.div>
     </section>
